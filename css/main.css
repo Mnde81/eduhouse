@@ -4,32 +4,24 @@
 }
 
 body {    
-    display: inline-block; 
-    width: 100%; 
+    display: grid;
+    grid-template-columns: 300px 1fr;    
+    
     margin: 0;
-}
-
-aside {    
+    min-height: 100vh;
     
-    background-color: pink; 
-    width: 200px; 
-    padding: 20px;
-    float: left; 
-    height: 500px;
-    border: 10px solid red;
 }
 
-main, div { 
-    background-color: aquamarine;   
+aside {        
+    background-color: #FAF7F2;    
+   
+}
+
+main {   
+    background-color: white;     
     
-    width: calc((100% - 200px) / 2); 
-    float: left; 
-    height: 500px;
 }
 
-div {
-    background-color: bisque;
-}
 
 
 
