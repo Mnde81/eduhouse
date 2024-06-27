@@ -1,0 +1,47 @@
+.popular-categories .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+.popular-categories {
+    display: inline-block;    
+}
+
+.popular-categories .title {
+    margin-bottom: 36px;    
+}
+
+.courseN {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.categories {
+    background-color: white;
+    border-radius: 1rem;
+    width: 250px;
+    position: relative;
+}
+
+.popular-icon {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.categories .title2 {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.categories:hover {
+    background-color: rgba(0, 0, 0, 0.2) ;    
+}
